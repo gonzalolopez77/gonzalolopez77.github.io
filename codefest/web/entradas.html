@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Entradas</title>
+    <link rel="stylesheet" type="text/css" href="../css/Untitled-1.css">
+</head>
+<body>
+    <header>
+        <h1>CodeFest 2025</h1>
+        <h2>Donde la Música y el Código se encuentran</h2>
+    </header>
+    <nav>
+        <ul>
+            <a href="Index.html"><li>Inicio</li></a>
+            <a href="web/cartel.html"><li>Cartel</li></a>
+            <a href="web/localizacion.html"><li>Localización</li></a>
+            <a href="web/entradas.html"><li>Entradas</li></a>
+        </ul>
+    </nav>
+    <main>
+        <form method="post" action="https://www.w3schools.com/action_page.php" enctype="multipart/form-data">
+    <fieldset>
+        <a>Datos Personales</a><br>
+        <label for="Nombre y Apellidos">Nombre y Apellidos:</label>
+        <input type="text" placeholder="Nombre y Apellidos"><br>
+
+        <label for="correo">Correo:</label>
+        <input required type="email" id="correo" name="correo"><br>
+
+    </fieldset>    
+    <fieldset>   
+        <a>Tipo de entradas</a><br>     
+        <label for="opcion1">Abono General (3 Días):</label>
+        <input type="radio" id="opcion1" name="tipo_entrada">
+
+        <label for="opcion2">Abono VIP (3 Días):</label>
+        <input type="radio" id="opcion2" name="tipo_entrada">
+
+        <label for="opcion3">Entrada de Día:</label>
+        <input type="radio" id="opcion3" name="tipo_entrada">
+    </fieldset>
+    <fieldset>
+        <a>Extras</a><br>
+        <label for="camping">Camping</label>
+        <input type="checkbox" id="camping" name="extras">
+
+        <label for="merchandising">Pack Merchandising</label>
+        <input type="checkbox" id="merchandising" name="extras">
+
+        <label for="talleres">Acceso a Talleres Tech</label>
+        <input type="checkbox" id="talleres" name="extras">
+    </fieldset>
+    <fieldset>
+        <a>Día (Solo si es Entrada de Día)</a><br>
+        <select>
+            <option>Viernes</option>
+            <option>Sábado</option>
+            <option>Domingo</option>
+        </select>
+
+    </fieldset>
+    <button>Enviar</button>
+    <br>
+    </form>
+    </main>
+</body>
+<footer>
+    <p>© 2025 CodeFest. Todos los derechos reservados</p>
+</footer>
+</html>
